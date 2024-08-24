@@ -1,6 +1,6 @@
 ## 🌟 **OBJECTIVE** 🌟
 
-![alt text](<SQC AND OR UNIT (2).png>)
+![alt text](<heartsafe.png>)
 
 
 The main task is to predict whether a patient has a **10-year risk** of developing coronary heart disease (CHD) 🩺🫀. This involves determining the likelihood that a patient will develop CHD within the next 10 years based on specific factors. 
