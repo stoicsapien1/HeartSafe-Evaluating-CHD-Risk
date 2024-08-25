@@ -7,7 +7,6 @@ This project aims to predict the 10-year risk of cardiovascular disease (CVD) ba
 - [Overview](#overview)
 - [Objective](#objective)
 - [Variables Description](#variables-description)
-- [Dataset](#dataset)
 - [Data Preprocessing](#data-preprocessing)
 - [Exploratory Data Analysis (EDA)](#exploratory-data-analysis-eda)
 - [Data Cleaning](#data-cleaning)
@@ -74,7 +73,7 @@ The dataset consists of the following attributes, categorized into demographic, 
 
 - **Size**: 3390 samples, 16 columns
 
-## Data Preprocessing
+## 💹 Data Preprocessing
 
 ### 1. Data Inspection
 
@@ -114,7 +113,7 @@ The dataset consists of the following attributes, categorized into demographic, 
 
 
 
-## Exploratory Data Analysis (EDA)
+## 📊 Exploratory Data Analysis (EDA)
 
 ![alt text](pairplot.png)
 
@@ -134,7 +133,7 @@ The dataset consists of the following attributes, categorized into demographic, 
 
 ![alt text](image-1.png)
 
-## Feature Engineering
+## 📉 Feature Engineering
 
 ### 1. Label Encoding
 
@@ -146,7 +145,7 @@ The dataset consists of the following attributes, categorized into demographic, 
 
 - Applied `StandardScaler` to normalize the numeric features, ensuring all features are on the same scale.
 
-## Modeling
+## 💻⬇️ Modeling
 
 ### 1. Model Selection
 
@@ -171,12 +170,12 @@ The dataset consists of the following attributes, categorized into demographic, 
 
 ![alt text](image-4.png)
 
-## Results
+## ❗ Results
 
 - The final model's performance was evaluated based on the selected metrics.
 - The results demonstrated that the model effectively predicts the 10-year risk of cardiovascular disease.
 
-## Conclusion
+## ⬇️ Conclusion
 
 This project successfully implemented a machine learning pipeline to predict cardiovascular disease risk based on various health features. The model's predictions can aid in identifying high-risk individuals and potentially guide preventive healthcare measures.
 
