@@ -68,27 +68,9 @@ The dataset consists of the following attributes, categorized into demographic, 
 
 - **🔍 10-year risk of CHD**: The target variable indicating whether the patient has a 10-year risk of coronary heart disease, coded as binary (1 for "Yes," 0 for "No").
 
-## Dataset
 
-- **Source**: The dataset used for this project is part of a cardiovascular study dataset, which includes the following features:
-  - `age`: Age of the individual
-  - `education`: Level of education
-  - `sex`: Gender (M/F)
-  - `is_smoking`: Smoking status (YES/NO)
-  - `cigsPerDay`: Number of cigarettes smoked per day
-  - `BPMeds`: Whether the individual is on blood pressure medication
-  - `prevalentStroke`: History of stroke
-  - `prevalentHyp`: Hypertension status
-  - `diabetes`: Diabetes status
-  - `totChol`: Total cholesterol level
-  - `sysBP`: Systolic blood pressure
-  - `diaBP`: Diastolic blood pressure
-  - `BMI`: Body Mass Index
-  - `heartRate`: Heart rate
-  - `glucose`: Glucose level
-  - `TenYearCHD`: 10-year risk of coronary heart disease (binary outcome)
 
-  ![alt text](image.png)
+![alt text](image.png)
 
 - **Size**: 3390 samples, 16 columns
 
