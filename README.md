@@ -1,3 +1,6 @@
+
+
+
 # Cardiovascular Risk Prediction
 
 This project aims to predict the 10-year risk of cardiovascular disease (CVD) based on various health-related features. The dataset used in this project is derived from a cardiovascular study and contains information on multiple risk factors.
@@ -14,7 +17,6 @@ This project aims to predict the 10-year risk of cardiovascular disease (CVD) ba
 - [Modeling](#modeling)
 - [Results](#results)
 
-
 ## Overview
 
 Cardiovascular diseases are the leading cause of death globally. Identifying individuals at risk can help in preventive measures and treatments. This project utilizes machine learning techniques to predict the 10-year cardiovascular disease risk based on a set of features such as age, sex, cholesterol levels, and smoking habits.
@@ -23,51 +25,49 @@ Cardiovascular diseases are the leading cause of death globally. Identifying ind
 
 ![alt text](<heartsafe.png>)
 
-The main task is to predict whether a patient has a **10-year risk** of developing coronary heart disease (CHD) 🩺🫀. This involves determining the likelihood that a patient will develop CHD within the next 10 years based on specific factors.
+The main task is to predict whether a patient has a **10-year risk** of developing coronary heart disease (CHD). This involves determining the likelihood that a patient will develop CHD within the next 10 years based on specific factors.
 
 🔍 **Your Goal**: Build a predictive model using data on patients' demographics, behaviors, and medical history to classify them into one of two categories:
 
 ### 📊 **Classification Categories**:
-- **🚨 High Risk (1)**: The patient is predicted to have a high likelihood of developing CHD within the next 10 years.
-- **✅ Low Risk (0)**: The patient is predicted to have a low likelihood of developing CHD within the next 10 years.
+- **High Risk (1)**: The patient is predicted to have a high likelihood of developing CHD within the next 10 years.
+- **Low Risk (0)**: The patient is predicted to have a low likelihood of developing CHD within the next 10 years.
 
-By accurately predicting these categories, you can help in early intervention and potentially life-saving preventive measures! 💪❤️
+By accurately predicting these categories, you can help in early intervention and potentially life-saving preventive measures!
 
 ## 🗂️ **Variables Description**
 
 The dataset consists of the following attributes, categorized into demographic, behavioral, and medical factors:
 
-### 👥 **Demographic Factors**
+### **Demographic Factors**
 
-- **👨‍⚕️ Sex**: The gender of the patient, coded as "M" (male) or "F" (female).
-- **🎂 Age**: The age of the patient, recorded as a continuous variable.
+- **Sex**: The gender of the patient, coded as "M" (male) or "F" (female).
+- **Age**: The age of the patient, recorded as a continuous variable.
 
-### 🚬 **Behavioral Factors**
+### **Behavioral Factors**
 
-- **🚭 is_smoking**: Whether the patient is a current smoker, recorded as "YES" or "NO."
-- **🚬 Cigs Per Day**: The average number of cigarettes the patient smokes per day, treated as a continuous variable.
+- **is_smoking**: Whether the patient is a current smoker, recorded as "YES" or "NO."
+- **Cigs Per Day**: The average number of cigarettes the patient smokes per day, treated as a continuous variable.
 
-### 🩺 **Medical History Factors**
+### **Medical History Factors**
 
-- **💊 BP Meds**: Whether the patient is on blood pressure medication (Nominal).
-- **🧠 Prevalent Stroke**: Whether the patient has had a stroke in the past (Nominal).
-- **💉 Prevalent Hyp**: Whether the patient is hypertensive (Nominal).
-- **🍬 Diabetes**: Whether the patient has diabetes (Nominal).
+- **BP Meds**: Whether the patient is on blood pressure medication (Nominal).
+- **Prevalent Stroke**: Whether the patient has had a stroke in the past (Nominal).
+- **Prevalent Hyp**: Whether the patient is hypertensive (Nominal).
+- **Diabetes**: Whether the patient has diabetes (Nominal).
 
-### 📈 **Current Medical Factors**
+### **Current Medical Factors**
 
-- **🧪 Tot Chol**: Total cholesterol level, recorded as a continuous variable.
-- **🩸 Sys BP**: Systolic blood pressure, recorded as a continuous variable.
-- **🩸 Dia BP**: Diastolic blood pressure, recorded as a continuous variable.
-- **⚖️ BMI**: Body Mass Index, recorded as a continuous variable.
-- **❤️ Heart Rate**: The heart rate of the patient, treated as a continuous variable.
-- **🍭 Glucose**: Glucose level, recorded as a continuous variable.
+- **Tot Chol**: Total cholesterol level, recorded as a continuous variable.
+- **Sys BP**: Systolic blood pressure, recorded as a continuous variable.
+- **Dia BP**: Diastolic blood pressure, recorded as a continuous variable.
+- **BMI**: Body Mass Index, recorded as a continuous variable.
+- **Heart Rate**: The heart rate of the patient, treated as a continuous variable.
+- **Glucose**: Glucose level, recorded as a continuous variable.
 
-### 🎯 **Predictive Variable (Target)**
+### **Predictive Variable (Target)**
 
-- **🔍 10-year risk of CHD**: The target variable indicating whether the patient has a 10-year risk of coronary heart disease, coded as binary (1 for "Yes," 0 for "No").
-
-
+- **10-year risk of CHD**: The target variable indicating whether the patient has a 10-year risk of coronary heart disease, coded as binary (1 for "Yes," 0 for "No").
 
 ![alt text](image.png)
 
@@ -92,8 +92,6 @@ The dataset consists of the following attributes, categorized into demographic, 
   - `heartRate`: 0.03% missing
   - `glucose`: 8.97% missing
 
-
-
 - **Visualizing Missing Data**: 
   - Used `missingno` to create bar and dendrogram plots.
   - Heatmap visualization for missing values.  
@@ -101,6 +99,7 @@ The dataset consists of the following attributes, categorized into demographic, 
 ![alt text](<missing values bar.png>)
 
 ![alt text](<missing value heatmap.png>)
+
 ### 3. Data Cleaning
 
 - **Dropping Null Values**: 
@@ -110,8 +109,6 @@ The dataset consists of the following attributes, categorized into demographic, 
 - **Outlier Treatment**:
   - Identified outliers in the numeric features using boxplots.
   - Applied the Interquartile Range (IQR) method to cap outliers.
-
-
 
 ## 📊 Exploratory Data Analysis (EDA)
 
@@ -154,8 +151,6 @@ The dataset consists of the following attributes, categorized into demographic, 
   - Random Forest
   - Decision Tree
 
-
-
 ### 2. Model Evaluation
 
 - Evaluation metrics used:
@@ -189,4 +184,3 @@ This project successfully implemented a machine learning pipeline to predict car
 - Scikit-learn
 - Plotly
 - Missingno
-
